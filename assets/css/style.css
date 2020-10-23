@@ -1,0 +1,104 @@
+@media (min-width: 576px) {
+    .navbar .form-inline .input-group {
+        width: 100%;
+    }
+}
+
+/* xs */
+@media (max-width: 576px) {
+    .btn-xs-block {
+        width: 100%;
+    }
+
+    .w-xs-100 {
+        width: 100%;
+    }
+
+    .p-xs-1 {
+        padding: 0.25rem;
+    }
+}
+
+
+.sticky-top {
+    overflow-y: auto;
+}
+
+.comments {
+    overflow-y: auto;
+}
+
+div.bootbox.modal {
+    z-index: 10000 !important;
+}
+
+.sidebar {
+    overflow-y: auto;
+}
+
+#myDropdown .dropdown-menu {
+    width: max-content;
+    max-height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#myDropdown .badge {
+    position: absolute;
+    right: 5px;
+    top: -5px;
+    border-radius: 50%;
+}
+
+.navbar-dark .navbar-nav .dropdown a.btn{
+    color: rgba(255,255,255,0.75);
+}
+
+.navbar-dark .navbar-nav .dropdown.active a.btn{
+    color: rgba(255,255,255,1);
+}
+#myDropdown .badge , .nav-item .badge{
+    position: absolute;
+    right: 5px;
+    top: -5px;
+    border-radius: 50%;
+}
+/*************************************************************************************************/
+.search{
+    transition: all 0.5s ease-in-out 0s;
+    position: relative;
+}
+.search_results{
+    position: absolute;
+    top: 37px;
+    left: 0;
+    right: 0;
+    z-index: 999999999;
+    max-height: 300px;
+    overflow-y: scroll;
+
+    background-color: #777;
+}
+
+.search_results_footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 999999999;
+    background-color: #777;
+    text-align: center;
+    padding: 10px;
+}
+.search_results_footer a{
+    color: antiquewhite;
+}
+/*************************************************************************************************/
+
+
+.postedImage img {
+	max-height: 300px;
+    max-width: 100%;
+    display: block;
+    margin: 5px auto;
+}
+/*************************************************************************************************/
